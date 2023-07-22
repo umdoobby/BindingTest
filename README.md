@@ -8,7 +8,7 @@ In the main page you will see a CollectionView that uses an inline DataTemplate 
 Run the application in debug mode and click the "Get Monkeys" button and you will see the data load and be presented correctly, however, there will also be multiple binding errors in the debugger. 
 As far as I can tell all of the errors are saying that any given property in the Monkey.cs doesn't exist in MonkeysViewModel.cs. 
 Now it's technically correct, those properties don't exist there, but, the in the DataTemplate I have `x:DataType="models:Monkey"`. 
-So it should be looking in the Monkey.cs right?  ¯\_(ツ)_/¯  I'm not even sure that functionality is being impacted, errors just scare me.
+So it should be looking in the Monkey.cs right? `¯\_(ツ)_/¯` I'm not even sure that functionality is being impacted, errors just scare me.
 
 Here are the XAML Binding Failures:
 

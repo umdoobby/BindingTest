@@ -1,7 +1,7 @@
 ﻿# BindingTest
 Demonstrates a binding issue that seems to exist in in the dotnet 8 maui preview.
 
-This project is essentially [dotnet-maui-workshop](https://github.com/dotnet-presentations/dotnet-maui-workshop) by @jamesmontemagno except it was created using dotnet 8.0.100-preview.6.23330.14.
+This project is essentially [dotnet-maui-workshop](https://github.com/dotnet-presentations/dotnet-maui-workshop) by [jamesmontemagno](https://github.com/jamesmontemagno) except it was created using dotnet 8.0.100-preview.6.23330.14.
 
 I'm using this because this is almost exactly how I'm using the DataTemplate inside of a CollectionView in my actual project. 
 In the main page you will see a CollectionView that uses an inline DataTemplate to present different properties of each monkey object. 
